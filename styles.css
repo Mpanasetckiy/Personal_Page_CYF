@@ -1,0 +1,173 @@
+* {
+    /*  border: 1px salmon solid; */
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    height: 2930px;
+    background: transparent url('/files/header.jpg');
+}
+header {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navigation {
+    position: fixed;
+    display: flex;
+    width: 450px;
+    justify-content: space-around;
+    margin: 40px 100px 0 0;
+}
+iframe {
+    width: 500px;
+    height: 282px;
+    border: none;
+}
+a {
+    font-size: large;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.header__container {
+    margin: 100px 120px;
+    width: 700px;
+    font: normal normal 600 19px/22px Open Sans;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+h1 {
+    font: normal normal 500 72px/85px Open Sans;
+}
+.container__info {
+    text-align: end;
+    margin-top: 15px;
+}
+.container__description {
+    font: normal normal 600 19px/40px Open Sans;
+    width: 150px;
+    margin-top: 100px;
+}
+.header__photo {
+    width: 400px;
+    height: 600px;
+    margin-right: 100px;
+    margin-top: 150px;
+
+}
+.photocard-1 {
+    width: 100%;
+}
+.header__photo:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 2s;
+   
+}
+.main__container {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+.main__info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.me1 {
+    margin: 30px;
+    height: 110px;
+    width: 94px;
+   
+}
+.me1:hover {
+    transform: rotateY(540deg);
+    transition: 2s;
+}
+.main__description {
+    text-align: center;
+    width: 250px;
+    font: normal normal 500 19px/22px  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.intersection {
+    width: 100%;
+    height: 250px;
+    background: transparent url(/files/chess2.jpg)
+}
+.contacts__header {
+    margin: 50px 0 30px 0;
+    text-align: center;
+}
+.contacts__description {
+    text-align: center;
+    font: normal normal 500 19px/22px  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.social:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+.form1 {
+    width: 350px;
+    
+}
+input {
+    width: 100%;
+    padding: 5px 20px;
+}
+.section__query {
+    margin-top: 50px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+.form__text {
+    width: 350px; 
+    height: 79px;
+    padding: 5px 20px;
+}
+button {
+    background-color: white;
+    border: 1px solid #777;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 21px;
+    width: 150px;
+    margin-top: 30px;
+    height: 35px;
+}
+button:hover {
+    background-color: rgb(172, 171, 171);
+}
+.footer__info {
+    width: 448px;
+    height: 39px;
+    margin: 200px;
+    display: flex;
+    column-gap: 20px;
+}
+.footer__img {
+    width: 140px;
+    background-color: aliceblue;
+}
+.footer__text {
+    color: aliceblue;
+}

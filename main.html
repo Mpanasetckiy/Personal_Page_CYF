@@ -4,9 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header id="header" class="c-site-header">
+        <nav class="navigation" aria-label="Main Site Links.">
+           <a href="#header">Main</a>
+            <a href="#main">About</a>
+           <a href="#contact">Contact</a>
+        </nav>
+        <div class="header__container">
+            <div>
+                <h1>Maksim Lukianenko</h1>
+                <p class="container__info">Chess player Web-developer and just a good guy :)</p>
+            </div>
+            <div>
+                <iframe src="/files/video.mp4"></iframe>
+            </div>
+            <div class="container__description" >
+                <p  >This is my personal home page where you can find some information about me</p>
+            </div>
+        </div>
+        
+        <div class="header__photo"><img class="photocard-1" src="/files/IMG_6808.JPG" alt="">
+        </div>
+    </header>
+    <main id="main">
+        <div class="main__about">
+            <h1 style="text-align: center;">About me</h1>
+        </div>
+        <div class="main__container">
+            <div class="main__info">
+                <h2>What I Do</h2>
+                <img class="me1" src="/files/me1.png" alt="">
+                <p class="main__description">
+                    I'm engaged in web-development from scratch.
+                    I do layout and programming of websites, as well as revision, adding full functionality to the site!I make up adaptive layout as well,
+                    so the site turns out to be beautiful on any device, be it a computer, laptop or phone!</p>
+            </div>
+            <div class="main__info">
+                <h2>My skills</h2>
+                <img class="me1" src="/files/me2.png" alt="">
+                <p class="main__description">I know programming languages such as JavaScript. Markup languages: HTML(5), CSS(3).
+                    I know how to make adaptive websites for tablets and mobile devices, Bootstrap framework. I also know the jQuery library!</p>
+            </div>
+            <div class="main__info">
+                <h2>Education</h2>
+                <img class="me1" src="/files/me3.png" alt="">
+                <p class="main__description">INTERNATIONAL EASTERN EUROPEAN
+                    COLLEGE
+                    Computer Science 2016/2020</p>
+            </div>
+        </div>
+    </main>
+    <section class="intersection"></section>
+    <section id="contact" class="contacts">
+        <div class="contacts__header">
+            <h1>Contact</h1>
+        </div>
+        <p class="contacts__description">If you have any questions, I will be happy to answer them!</p>
+        <div>
+            <div class="links">
+                <a class="social" href="mailto:maxbuzz8694@gmail.com"><img src="/files/email.png" style="width:100px;" alt=""></a>
+                <a class="social" href="https://www.instagram.com/mpanasetckiy/"><img src="/files/instagram.png" style="width:100px;" alt=""></a>
+                <a class="social" href="https://t.me/maxbmaapc"><img src="/files/telegram.png" style="width:100px;" alt=""></a>
+                <a class="social" href="https://www.facebook.com/mpanasetckiy"><img src="/files/facebook.png" style="width:100px;" alt=""></a>
+            </div>
+            <p class="contacts__description">Have a question or want to work together?</p>
+            <form action="post" class="section__query">
+                <div class="form1">
+                    <p>Name</p>
+                    <br>
+                    <input required type="text"
+                           id="name"
+                           placeholder="Please type your name" />
+                </div>
+                <div class="form1">
+                    <p>Email</p>
+                    <br>
+                    <input required type="email"
+                           id="email"
+                           placeholder="Please type your email" />
+                </div>
+                <div class="">
+                    <p>Text</p>
+                    <br>
+                    <textarea class="form__text" name="comment" cols="34" rows="5" placeholder="Please type your message"></textarea>
+                </div>
+                <button id="submit" type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </section>
+    <footer class="c-site-footer">
+        <div class="footer__info">
+            <p class="footer__text">© 2022 Maksim Lukianenko for</p>
+           <a href="https://codeyourfuture.io/"><img class="footer__img" src="/files/cyf_brand.png" alt=""></a>
+        </div>
+    </footer>
 </body>
 </html>
