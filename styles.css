@@ -12,17 +12,10 @@
     background: transparent url('/files/header.jpg');
 }
 header {
-    height: 800px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
-}
-.navigation {
-    position: fixed;
-    display: flex;
-    width: 450px;
-    justify-content: space-around;
-    margin: 40px 100px 0 0;
+    column-gap: 100px;
 }
 iframe {
     width: 500px;
@@ -36,12 +29,12 @@ a {
     color: black;
 }
 .header__container {
-    margin: 100px 120px;
-    width: 700px;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 60px;
     font: normal normal 600 19px/22px Open Sans;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
     flex-wrap: wrap;
     column-gap: 50px;
 }
@@ -62,7 +55,6 @@ h1 {
     height: 600px;
     margin-right: 100px;
     margin-top: 150px;
-
 }
 .photocard-1 {
     width: 100%;
@@ -71,7 +63,6 @@ h1 {
     cursor: pointer;
     transform: scale(1.3);
     transition: 2s;
-   
 }
 .main__container {
     display: flex;
@@ -89,7 +80,6 @@ h1 {
     margin: 30px;
     height: 110px;
     width: 94px;
-   
 }
 .me1:hover {
     transform: rotateY(540deg);
@@ -122,11 +112,9 @@ h1 {
     cursor: pointer;
     transform: scale(1.2);
     transition: 0.5s;
-
 }
 .form1 {
     width: 350px;
-    
 }
 input {
     width: 100%;
@@ -157,17 +145,13 @@ button {
 button:hover {
     background-color: rgb(172, 171, 171);
 }
-.footer__info {
-    width: 448px;
-    height: 39px;
-    margin: 200px;
-    display: flex;
-    column-gap: 20px;
+.c-site-footer {
+    margin-top: 5rem!important;
 }
 .footer__img {
     width: 140px;
     background-color: aliceblue;
 }
-.footer__text {
-    color: aliceblue;
+.align-items-center {
+    column-gap: 30px;
 }
