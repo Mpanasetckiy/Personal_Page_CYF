@@ -152,6 +152,6 @@ button:hover {
     width: 140px;
     background-color: aliceblue;
 }
-.align-items-center {
+.footer__info {
     column-gap: 30px;
 }
